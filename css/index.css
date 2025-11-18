@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    color: white;
+    line-height: 1.6;
+}
+
+.class {
+    background-image: url('https://kalungijoseph.github.io/web-dev-group-O/img14.png');
+    width: 100%;
+    height: 100vh;
+}
+
+.details {
+    width: 70%;
+    height: 40px;
+    background: white;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-row {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.blog-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    align-item: center;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    width: 350px;
+    background-color: #057484;
+    border: 1px solid #057484;
+    margin: 20px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 150px;
+}
+
+.destination-card img {
+    width: 180px;
+    height: 160px;
+    display: flex;
+    align-content: column;
+    object-fit: cover;
+}

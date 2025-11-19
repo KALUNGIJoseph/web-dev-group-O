@@ -1,0 +1,121 @@
+.f-r{
+    display: flex;
+}
+.F-R{
+    display: flex;
+}
+.S-R{
+    display: flex;
+}
+.T-R{
+    display: flex;
+}
+.F-r{
+    display: flex;
+}
+nav{
+    background-color:rgb(16, 61, 16)  ;
+    justify-content: space-between ;
+    display: flex;
+    padding: 15px 40px;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    display: flex;
+    color: white;
+    padding: 20px;
+    gap: 20px;
+}
+ul li a{
+    color: beige;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+padding: 0;
+background-color: rgb(244, 249, 249);
+}
+h1{
+    color: black; 
+    font-size: ;
+    text-align: center;
+
+}
+p{
+    color: black;
+}
+.logo{
+    color: rgb(239, 233, 233);
+    font-size: 50px;
+    text-align: center;
+    nav
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+    padding: 15px 40px ;
+}
+.nav-links li{
+    color:rgb(234, 220, 220) ;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 20px;
+}
+.title h1{
+    font-size: 50px;
+}
+.gallery-grid{
+    display: flex;
+    gap:10px ;
+    border-radius: 10px;
+    text-align: center;
+}
+.gallery-item p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+.gallery-item{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: 10px;
+      background: rgb(16, 61, 16);
+}
+.gallery-item img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.footer{
+    background: ;
+    color:rgb(9, 51, 9) ;
+    text-align: center;
+    padding:20px ;
+    margin-top: 30px;
+}
+.gallery-item img  :active{
+    opacity: 0.8;
+    transition: 0.2s;
+transform: scale(0.9);
+}
+.animation:hover{
+    transform: translateY(-6px);
+    box-shadow: o 12px 28px black;
+
+}

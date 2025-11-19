@@ -223,17 +223,17 @@ h1, h2, h5 {
 }
 
 /* Form styling */
-.form {
+.data {
     text-align: left;
     margin-top: 10px;
 }
 
-.form label {
+.data label {
     font-weight: bold;
     font-size: 14px;
 }
 
-.form input {
+.data input {
     width: 100%;
     padding: 10px;
     margin: 6px 0 20px;

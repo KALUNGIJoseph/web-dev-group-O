@@ -1,0 +1,15 @@
+.navbar{
+    background-color: green;
+    border-bottom: 1px;
+}
+h2{
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+p{
+    margin-left: 3px;
+}
+h1{
+    font-weight: bold;
+}

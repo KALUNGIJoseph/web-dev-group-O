@@ -102,7 +102,24 @@
     <!--------------------------------------------CARUSOLE ENDS----AND SECTION #INTRO---------------------------------->
 
 
-   <a href="https://kalungijoseph.github.io/web-dev-group-O/index.html/#signin" class="btn btn-outline-danger" role =button>SIGN-IN</a>
+   <button id="openAlertBtn" class="btn btn-outline-danger mt-5">Sign In</button>
+
+<!---------------------------------------------------- Popup form --------------------------------->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Sign In</h2>
+    <form>
+      <label>Username</label>
+      <input type="text" class="mt-3" required>
+
+      <label>Password</label>
+      <input type="password" class="mt-3" required>
+
+      <button type="submit"  class="btn btn-outline-success mt-3">Login</button>
+      <button type="button" id="closePopupBtn" class="btn btn-outline-danger mt-3">Close</button>
+    </form>
+  </div>
+</div>
 
 
 

@@ -31,3 +31,14 @@ function vistWebsite(){
 }
 
 
+document.getElementById("openAlertBtn").addEventListener("click", function() {
+    alert("Sign in");
+    document.getElementById("popup").style.display = "flex";
+});
+
+document.getElementById("closePopupBtn").addEventListener("click", function() {
+    document.getElementById("popup").style.display = "none";
+});
+
+
+
